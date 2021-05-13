@@ -57,5 +57,12 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
-    }
+    },
+	"repositories":{
+		"packagist":{
+			"type":"compose",
+			"url":"https://mirrors.aliyun.com/composer/"
+		}
+	}
+	
 }
